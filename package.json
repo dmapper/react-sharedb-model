@@ -19,7 +19,10 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "racer": "^0.9.3",
+    "racer-highway": "^8.1.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -36,9 +39,5 @@
     "lint-staged": "^4.3.0",
     "prettier-standard": "^7.0.3",
     "standard": "^10.0.3"
-  },
-  "peerDependencies": {
-    "racer": "*",
-    "racer-highway": "*"
   }
 }
